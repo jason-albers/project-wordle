@@ -42,7 +42,7 @@ function Game() {
       >
         <label htmlFor="guess-input">Enter guess:</label>
         {isDisabled ? (
-          <input id="guess-input" disabled />
+          <input id="guess-input" value={guess} disabled />
         ) : (
           <input
             id="guess-input"
